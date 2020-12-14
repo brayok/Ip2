@@ -1,0 +1,51 @@
+.form{
+    background-image: url('../images/baby.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+    float: left;
+    margin: 2px;
+    opacity: 1;
+}
+body{
+    background-image: url('../images/Ghana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: yellowgreen;
+    margin: 10px;
+}
+#male{
+    color: #fff76a;
+}
+.jumbotron{
+    background-color:#fff76a;
+}
+.card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/Akan.png');
+}
+h3{
+    color: green;
+}
+.card-text{
+    color: red;
+}
+.description{
+    color: black;
+}
+#copyright{
+    text-align: center;
+    float: center;
+    font-style: italic;
+    font-size: 15px;
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px palevioletred;
+}

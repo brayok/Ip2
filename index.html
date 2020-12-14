@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghana Akan name</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+  <div class="container">
+    <div class="jumbotron">
+      <h1>GHANA AKAN NAMES GENERATOR</h1>
+      <P class="description">
+      Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. By filling out the form below you get your Akan name according to your birthday. 
+      </P>
+    </div>
+    <form class="form">
+      <h2 class="text-primary">Enter your birth date:</h2>
+      <input type="text" id="day" class="form-control" placeholder="day">
+      <p id="dayerror"></p>
+
+      <input type="text" id="month" class="form-control" placeholder="month">
+      <p id="montherror"></p>
+
+      <input type="text" id="year" class="form-control" placeholder="year">
+      <p id="yearerror"></p>
+      <h2 class="text-primary">Select your gender:</h2>
+      <label for="male">Male:</label>
+      <input type="checkbox" id="male" class="">
+      <label for="male">Female:</label>
+      <input type="checkbox" id="female" class=""><br>
+      <p id="check-boxerror"></p>
+          
+      <button type="button" onclick="akan()" class="btn btn-large btn-block btn-outline-primary">Get Akan Name</button>
+       
+    </form>   
+    <div class="card">
+      <div class="card-footer">
+        <h3 class="card-title" bg-info>About Ghana Akan Culture</h4>
+        <p class="card-text">
+          <strong>
+            The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+
+            This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of enslaved people's rebellions had "day names" including Cuffy, Cuffee or Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.
+            
+            Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.
+          </strong>
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Akan_names" class="card-link"><em>cultural facts</em></a>
+      </div>
+    </div>
+    <p id="copyright">copyright @ 2020 All rights reserved</p>
+  </div>
+  <script src="js/node.js"></script>
 </body>
 </html>
