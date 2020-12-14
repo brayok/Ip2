@@ -36,6 +36,9 @@ h3{
 .description{
     color: black;
 }
+.card-link{
+    color: #fff76a;
+}
 #copyright{
     text-align: center;
     float: center;
