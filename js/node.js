@@ -70,7 +70,7 @@ function getAkan() {
 
     } else if (ismale == false && isfemale == true) {
         if (day == 0) {
-            // return male[0];
+            // return female[0];
             alert("your name is " + female[0]);
         }
         else if (day == 1) {
