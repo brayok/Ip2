@@ -2,7 +2,7 @@ function akan(){
     var d = new Date();
 
     var date = parseInt(document.getElementById("day").value);
-    var month = parseInt(document.getElementById("month").value) - 1;
+    var month = parseInt(document.getElementById("month").value);
     var year = parseInt(document.getElementById("year").value);
 
     if (day < 0 || day > 31) {
@@ -70,7 +70,7 @@ function getAkan() {
 
     } else if (ismale == false && isfemale == true) {
         if (day == 0) {
-            // return male[0];
+            // return female[0];
             alert("your name is " + female[0]);
         }
         else if (day == 1) {

@@ -13,7 +13,7 @@ body{
     background-size: cover;
 }
 h2{
-    color: yellowgreen;
+    color: blue;
     margin: 10px;
 }
 #male{
@@ -28,19 +28,22 @@ h2{
     background-image: url('../images/Akan.png');
 }
 h3{
-    color: blue;
+    color: #fff76a;
 }
 .card-text{
-    color: red;
+    color: #eff8ff;
 }
 .description{
     color: black;
 }
+.card-link{
+    color: #fff76a;
+}
 #copyright{
     text-align: center;
     float: center;
-    font-style: italic;
     font-size: 15px;
+    color: red;
 }
 h1{
     font-style: normal;
